@@ -75,7 +75,7 @@
         name: git
         state: present
 
-    - name: Clone the backend repository
+    - name: Clone the wep app repository
       git:
         repo: "https://github.com/mohamed00mamdouh/depiProject.git"
         dest: ./clonerepo
